@@ -1,0 +1,26 @@
+Okay welcome to git learning.  Here are few steps to start git training
+
+1. Create a Git account.
+2. Create a repository in the Git account.  To create a repo hot the plus sign on to roght hand corner of git hub
+3. you have to install git in linux
+4. issue command dnf install git for fedora / sudo apt install git in ubuntu
+5. Go to any folder and issue the command git int
+You will get a message Intialized empty Git repo
+6. Issue the command git --version.  It will show version number
+7  Check for Git staus by issueing Git status command
+8. If you have some file in the git repo and you want to downlod the same to your local computer then issue the command
+git clone https://github.com/githubarvindsridharan/learngit     This will download the files in that particualar repo
+
+
+9. Once you have intialised a git repository in your local computers folder, you can add the files in that folder to the local git repo by giving the command
+git add file name (Here you have added the file to the staging area)
+10. Now you can commit the file that you have added using the command git commit -m "Your comment"
+11 To check for the url of your online git repo issue the command
+git remote -v    This will show the url of your git repo.  some thins like this
+https://github.com/githubarvindsridharan/learngit
+
+
+
+12. If you want to push the files you have created in your local computer to git hub repo online then you will have to give the command
+git push
+
