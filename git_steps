@@ -14,7 +14,7 @@ git clone https://github.com/githubarvindsridharan/learngit     This will downlo
 
 9. Once you have intialised a git repository in your local computers folder, you can add the files in that folder to the local git repo by giving the command
 git add file name (Here you have added the file to the staging area)
-10. Connecting git local repo with the online git account use  remote add origin https://github.com/123WebDesign/icecream.git
+10. Connecting git local repo with the online git account use  remote add git origin https://github.com/123WebDesign/icecream.git
 11. Now you can commit the file that you have added using the command git commit -m "Your comment"
 12 To check for the url of your online git repo issue the command
 git remote -v    This will show the url of your git repo.  some thins like this
